@@ -1,0 +1,7 @@
+ spring:
+  data:
+    elasticsearch:
+      # 集群的名字
+      cluster-name: elasticsearch
+      # 节点的ip与端口 注意端口是9300不是9200
+      cluster-nodes: 192.168.2.233:9300
